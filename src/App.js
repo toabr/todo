@@ -41,7 +41,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename={'/'}>
+      <Router basename={'/todo'}>
           <div className="App">
 
             <Route exact path="/" render={ () => (
